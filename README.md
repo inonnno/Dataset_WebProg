@@ -1,9 +1,13 @@
 ## Keystroke Coding Dataset for Web Programming
 
+### Dataset Motivation
+Traditional code datasets often lack real-time behavioral data, making it difficult to understand how students approach coding problems and navigate through challenges. This dataset addresses this gap by providing a detailed view of students' coding processes. By capturing each keystroke, it offers valuable insights into students' problem-solving strategies and learning trajectories, making it suitable for research on programming education.
+
 ### Overview
 This dataset captures students' keystroke-level coding behavior for two introductory-level web programming exercises. It was collected during a data collection session designed to simulate a real-time classroom environment. We recruited 22 students, including 10 beginners, 11 intermediates, and 1 advanced student in web programming, from [redacted for anonymity].
 
-### Dataset Structure
+### Dataset Details
+The dataset captures every keystroke made by participants, with each student averaging around 810 keystrokes per exercise. The data is organized with timestamps, anonymized participant IDs, and detailed information about each edit. The exercises involve building introductory-level interactive web applications using HTML, CSS, and JavaScript. Descriptions of the exercises are available in the [Appendix](#exercise-descriptions).
 
 The dataset is organized into the following structure:
 
@@ -14,12 +18,6 @@ The dataset is organized into the following structure:
 
 ### Data Collection
 The data collection sessions were conducted synchronously via Zoom, with each participant completing their session individually. Each participant was given two web programming exercises to complete, with a 20-minute time limit for each exercise. During the session, a research team member monitored the participants' progress and collected data using a customized VS Code extension. Participants were allowed to use external resources such as Google and inline GitHub Copilot suggestions but were restricted from using ChatGPT or other large language models to obtain direct code answers. This approach aimed to balance the realistic use of AI tools while ensuring reliable data for analyzing student progress.
-
-### Dataset Details
-The dataset captures every keystroke made by participants, with each student averaging around 810 keystrokes per exercise. The data is stored in InfluxDB and is organized with timestamps, anonymized participant IDs, and detailed information about each edit. The exercises involve building introductory-level interactive web applications using HTML, CSS, and JavaScript. Descriptions of the exercises are available in the [Appendix](#exercise-descriptions).
-
-### Dataset Motivation
-Traditional code datasets often lack real-time behavioral data, making it difficult to understand how students approach coding problems and navigate through challenges. This dataset addresses this gap by providing a detailed view of students' coding processes. By capturing each keystroke, it offers valuable insights into students' problem-solving strategies and learning trajectories, making it suitable for research on programming education.
 
 ### Applications
 This dataset can be used for various research purposes, including:
