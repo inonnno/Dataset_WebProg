@@ -1,5 +1,8 @@
 ## Keystroke Coding Dataset
 
+### Overview
+This dataset captures students' keystroke-level coding behavior for two introductory-level web programming exercises. It was collected during a data collection session designed to simulate a real-time classroom environment. We recruited 22 students, including 10 beginners, 11 intermediates, and 1 advanced student in web programming, from [redacted for anonymity].
+
 ### Dataset Structure
 
 The dataset is organized into the following structure:
@@ -8,9 +11,6 @@ The dataset is organized into the following structure:
 - **todoList/**: Contains individual files recording the keystroke data of each student working on the to-do list exercise.
 - **mergedSortedData_image.json**: A merged JSON file that consolidates and sorts all students' keystroke data for the image carousel exercise based on timestamps, assuming all students started at the same time.
 - **mergedSortedData_todo.json**: A merged JSON file that consolidates and sorts all students' keystroke data for the to-do list exercise based on timestamps, assuming all students started at the same time.
-
-### Overview
-This dataset captures students' keystroke-level coding behavior during two introductory-level web programming exercises. It was collected during a data collection session designed to simulate a real-time classroom environment. We recruited 22 students, including 10 beginners, 11 intermediates, and 1 advanced student in web programming, from [redacted for anonymity].
 
 ### Data Collection
 The data collection sessions were conducted synchronously via Zoom, with each participant completing their session individually. Each participant was given two web programming exercises to complete, with a 20-minute time limit for each exercise. During the session, a research team member monitored the participants' progress and collected data using a customized VS Code extension. Participants were allowed to use external resources such as Google and inline GitHub Copilot suggestions but were restricted from using ChatGPT or other large language models to obtain direct code answers. This approach aimed to balance the realistic use of AI tools while ensuring reliable data for analyzing student progress.
