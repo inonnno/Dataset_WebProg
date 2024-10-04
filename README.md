@@ -1,4 +1,4 @@
-## Keystroke Coding Dataset for Two Web Programming Problems
+## Keystroke Coding Dataset
 
 ### Dataset Structure
 
